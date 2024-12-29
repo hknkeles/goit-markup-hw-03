@@ -143,13 +143,17 @@ body{
 }
 
 .visually-hidden{
-    display:none;
+    visibility: hidden;
 }
 
 .features-list{
     display: flex;
     gap:24px;
     margin: 120px 0;
+}
+
+.feature{
+    width: calc((100% - 72px) / 4);
 }
 
 .feature-title{
