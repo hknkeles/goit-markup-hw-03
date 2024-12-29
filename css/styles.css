@@ -129,6 +129,8 @@ body{
     font-size: 16px;
     line-height: inherit;
     letter-spacing: 0.04em;
+    display: block; /*Editör kontrolü ile eklendi*/
+    margin: 0 auto; /*Editör kontrolü ile eklendi*/
 }
 
 
