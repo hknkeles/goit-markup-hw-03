@@ -172,7 +172,7 @@ body{
 .team-section{
     background-color: var(--cloud);
     text-align: center;
-    padding: 120px;
+    padding: 120px 0;
 }
 
 .our-team-title{
@@ -191,11 +191,11 @@ body{
 .our-team-card{
     background-color: var(--white);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border-radius: 4px;
+    border-radius: 0px 0px 4px 4px
 }
 
 .team-info{
-    margin: 32px auto;
+    padding: 32px 0;
 }
 
 .team-info .member-name{
